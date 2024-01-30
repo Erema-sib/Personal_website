@@ -29,6 +29,10 @@
 
 
 @media (max-width: 760px) {
+    .header {
+        padding-bottom: 50px;
+    }
+
     .header-title {
         font-size: 32px;
     }
@@ -59,6 +63,7 @@
 
     .card:nth-last-child(2) {
         margin-bottom: 30px;
+        margin-left: 0;
     }
 
     .card-link {

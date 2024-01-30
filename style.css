@@ -68,12 +68,15 @@ img {
 
 .chevron-down {
   stroke: #ffffff;
-  transition: all 0.1s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .chevron-down:hover {
-  stroke:#003ada;
-  box-shadow: #000;
+  transform: scale(1.2);
+}
+
+a {
+  text-decoration: none;
 }
 
 .portfolio {
@@ -88,7 +91,7 @@ img {
   text-align: center;
   font-size: 46px;
   font-weight: 700;
-  line-height: 130%;
+  line-height: 130%;;
 }
 
 .portfolio-cards-wrapper {
@@ -124,6 +127,10 @@ img {
 .card:last-child,
 .card:nth-last-child(2) {
   margin-bottom: 0;
+}
+
+.card:nth-last-child(2) { 
+  margin-left: 15px;
 }
 
 .card-img {
